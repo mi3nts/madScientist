@@ -1,0 +1,89 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/media/teamlary/Team_Lary_1/gitGubRepos/Lakitha/madScientist/firmware/nanoUTD/include",
+                "/media/teamlary/Team_Lary_1/gitGubRepos/Lakitha/madScientist/firmware/nanoUTD/src",
+                "/media/teamlary/Team_Lary_1/gitGubRepos/Lakitha/madScientist/firmware/nanoUTD/lib/jobsMints",
+                "/media/teamlary/Team_Lary_1/gitGubRepos/Lakitha/madScientist/firmware/nanoUTD/lib/devicesMints",
+                "/media/teamlary/Team_Lary_1/gitGubRepos/Lakitha/madScientist/firmware/nanoUTD/lib/OPCN3NanoMints",
+                "/home/teamlary/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SPI/src",
+                "/home/teamlary/.platformio/packages/framework-arduinoavr/cores/arduino",
+                "/home/teamlary/.platformio/packages/framework-arduinoavr/variants/eightanaloginputs",
+                "/media/teamlary/Team_Lary_1/gitGubRepos/Lakitha/madScientist/firmware/nanoUTD/lib/MutichannelGasSensor",
+                "/home/teamlary/.platformio/lib/Adafruit BMP280 Library_ID528",
+                "/home/teamlary/.platformio/lib/Adafruit BusIO_ID6214",
+                "/home/teamlary/.platformio/lib/Adafruit HTU21DF Library_ID566",
+                "/home/teamlary/.platformio/lib/Adafruit INA219_ID160",
+                "/home/teamlary/.platformio/lib/Adafruit TSL2591 Library_ID463",
+                "/home/teamlary/.platformio/lib/Adafruit Unified Sensor_ID31",
+                "/home/teamlary/.platformio/lib/Adafruit VEML6075 Library_ID5788",
+                "/home/teamlary/.platformio/lib/Adafruit_VEML6070_ID341",
+                "/home/teamlary/.platformio/lib/Grove - Barometer Sensor BME280_ID5348",
+                "/home/teamlary/.platformio/lib/Grove - Sunlight Sensor_ID5351",
+                "/home/teamlary/.platformio/lib/MultiTrans_ID5713/src",
+                "/home/teamlary/.platformio/lib/SparkFun VEML6075 Arduino Library_ID5452/src",
+                "/home/teamlary/.platformio/lib/SparkFun_SCD30_Arduino_Library_ID5449/src",
+                "/home/teamlary/.platformio/lib/Time_ID44",
+                "/home/teamlary/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/EEPROM/src",
+                "/home/teamlary/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/HID/src",
+                "/home/teamlary/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SoftwareSerial/src",
+                "/home/teamlary/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/Wire/src",
+                "/home/teamlary/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/media/teamlary/Team_Lary_1/gitGubRepos/Lakitha/madScientist/firmware/nanoUTD/include",
+                    "/media/teamlary/Team_Lary_1/gitGubRepos/Lakitha/madScientist/firmware/nanoUTD/src",
+                    "/media/teamlary/Team_Lary_1/gitGubRepos/Lakitha/madScientist/firmware/nanoUTD/lib/jobsMints",
+                    "/media/teamlary/Team_Lary_1/gitGubRepos/Lakitha/madScientist/firmware/nanoUTD/lib/devicesMints",
+                    "/media/teamlary/Team_Lary_1/gitGubRepos/Lakitha/madScientist/firmware/nanoUTD/lib/OPCN3NanoMints",
+                    "/home/teamlary/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SPI/src",
+                    "/home/teamlary/.platformio/packages/framework-arduinoavr/cores/arduino",
+                    "/home/teamlary/.platformio/packages/framework-arduinoavr/variants/eightanaloginputs",
+                    "/media/teamlary/Team_Lary_1/gitGubRepos/Lakitha/madScientist/firmware/nanoUTD/lib/MutichannelGasSensor",
+                    "/home/teamlary/.platformio/lib/Adafruit BMP280 Library_ID528",
+                    "/home/teamlary/.platformio/lib/Adafruit BusIO_ID6214",
+                    "/home/teamlary/.platformio/lib/Adafruit HTU21DF Library_ID566",
+                    "/home/teamlary/.platformio/lib/Adafruit INA219_ID160",
+                    "/home/teamlary/.platformio/lib/Adafruit TSL2591 Library_ID463",
+                    "/home/teamlary/.platformio/lib/Adafruit Unified Sensor_ID31",
+                    "/home/teamlary/.platformio/lib/Adafruit VEML6075 Library_ID5788",
+                    "/home/teamlary/.platformio/lib/Adafruit_VEML6070_ID341",
+                    "/home/teamlary/.platformio/lib/Grove - Barometer Sensor BME280_ID5348",
+                    "/home/teamlary/.platformio/lib/Grove - Sunlight Sensor_ID5351",
+                    "/home/teamlary/.platformio/lib/MultiTrans_ID5713/src",
+                    "/home/teamlary/.platformio/lib/SparkFun VEML6075 Arduino Library_ID5452/src",
+                    "/home/teamlary/.platformio/lib/SparkFun_SCD30_Arduino_Library_ID5449/src",
+                    "/home/teamlary/.platformio/lib/Time_ID44",
+                    "/home/teamlary/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/EEPROM/src",
+                    "/home/teamlary/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/HID/src",
+                    "/home/teamlary/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SoftwareSerial/src",
+                    "/home/teamlary/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/Wire/src",
+                    "/home/teamlary/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=40003",
+                "ARDUINO_AVR_NANO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10805",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "\"/home/teamlary/.platformio/packages/toolchain-atmelavr/bin/avr-gcc\" -mmcu=atmega328p"
+        }
+    ],
+    "version": 4
+}

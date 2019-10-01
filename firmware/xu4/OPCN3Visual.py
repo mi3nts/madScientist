@@ -29,8 +29,8 @@ plt.style.use('ggplot')
 
 my_dpi=96
 fig = plt.figure(figsize=(800/my_dpi, 450/my_dpi), dpi=my_dpi)
-ax1 = fig.add_subplot(2,1,1)
-ax2 = fig.add_subplot(2,1,2)
+ax1 = fig.add_subplot(1,1,1)
+
 
 
 def main():
@@ -134,16 +134,7 @@ def animateOPCN3(i):
             ax1.set_xlabel("Particle Diametors (" +u"\u03bcm"+")")
             ax1.set_title("Particle Distribution Data(OPCN3)" )
             ax1.legend(handles=legendsIn)
-    #
-            ax2.clear()
-            ax2.bar(xData, binCountsIn, align='center', alpha=0.8,color="blue")
-            ax2.set_xticks(xData)
-            ax2.set_xticklabels(diametorsIn,rotation='vertical')
-            ax2.set_yscale('log')
-            ax2.set_ylabel("Bin Counts ")
-            ax2.set_xlabel("Particle Diametors (" +u"\u03bcm"+")")
-            ax2.set_title("Particle Distribution Data(OPCN3)" )
-            ax2.legend(handles=legendsIn)
+
 
     # except KeyboardInterrupt:
     #     print("-- MINTS QUITING --")
